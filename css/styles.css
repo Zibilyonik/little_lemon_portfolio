@@ -1,9 +1,9 @@
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 body {
-  background-color: color-mix(in srgb, #2daa44 3%, rgba(182, 202, 35, 0.209));
+  background-color: color-mix(in srgb, #2b5d3c 3%, rgba(182, 202, 35, 0.209));
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #D02530;
+  background-color: #C84630;
   padding: 1vh 15vw;
 }
 
@@ -28,8 +28,9 @@ nav a {
 }
 
 h1 {
-  color: rgb(26, 128, 60);
+  color: #2b5d3c;
   text-align: center;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .banner {
@@ -55,8 +56,9 @@ h1 {
 .grid {
   display: grid;
   margin: 1vh auto;
+  border-radius: 3px;
   width: 100%;
-  background-color: color-mix(in srgb, #2daa44 10%, rgba(182, 202, 35, 0.209));
+  background-color: color-mix(in srgb, #2b5d3c 10%, rgba(182, 202, 35, 0.209));
 }
 
 .row {
@@ -71,7 +73,9 @@ h1 {
 
 .col {
   margin: 2vh auto;
+  height: 25vh;
   padding: 3vw;
+  color: rgb(255, 255, 255);
   border-radius: 5px;
-  background-color: color-mix(in srgb, #D02530 60%, rgb(219, 120, 120));
+  background-color: #C84630;
 }/*# sourceMappingURL=styles.css.map */

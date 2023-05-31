@@ -1,9 +1,9 @@
-$primary-color: #2daa44;
-$secondary-color: #D02530;
+$primary-color: #2b5d3c;
+$secondary-color: #C84630;
 
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 body {
     background-color: color-mix(in srgb, $primary-color 3%, rgba(182, 202, 35, 0.209));
@@ -30,10 +30,13 @@ nav a {
 }
 
 h1 {
-    color: rgb(26, 128, 60);
+    color: $primary-color;
     text-align: center;
+    font-family: 'Berkshire Swash', cursive;
 
 }
+
+
 
 .banner {
     margin: 1vh auto;
@@ -56,6 +59,7 @@ h1 {
 .grid {
     display: grid;
     margin: 1vh auto;
+    border-radius: 3px;
     width: 100%;
     background-color: color-mix(in srgb, $primary-color 10%, rgba(182, 202, 35, 0.209));
 }
@@ -72,7 +76,9 @@ h1 {
 
 .col {
     margin: 2vh auto;
+    height: 25vh;
     padding: 3vw;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
-    background-color: color-mix(in srgb, $secondary-color 60%, rgb(219, 120, 120));
+    background-color: $secondary-color;
 }
