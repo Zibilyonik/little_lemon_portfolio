@@ -1,3 +1,7 @@
+$primary-color: rgba(29, 133, 64, 0.744);
+$secondary-color: rgba(198, 78, 14, 0.913);
+
+
 * {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -15,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(29, 133, 64, 0.744);
+    background-color: $primary-color;
     padding: 1vh 15vw;
 }
 
@@ -47,4 +51,27 @@ h1 {
 .desc {
     text-align: center;
     margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    margin: 1vh auto;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh auto;
+    width: 100%;
+}
+
+.col {
+    margin: 2vh auto;
+    padding: 3vw;
+    border-radius: 5px;
+    background-color: $primary-color;
 }

@@ -50,4 +50,27 @@ h1 {
 .desc {
   text-align: center;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  margin: 1vh auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh auto;
+  width: 100%;
+}
+
+.col {
+  margin: 2vh auto;
+  padding: 3vw;
+  border-radius: 5px;
+  background-color: rgba(29, 133, 64, 0.744);
 }/*# sourceMappingURL=styles.css.map */
