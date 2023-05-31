@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: color-mix(in srgb, #2daa44 3%, rgba(182, 202, 35, 0.209));
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(29, 133, 64, 0.744);
+  background-color: #D02530;
   padding: 1vh 15vw;
 }
 
@@ -56,6 +56,7 @@ h1 {
   display: grid;
   margin: 1vh auto;
   width: 100%;
+  background-color: color-mix(in srgb, #2daa44 10%, rgba(182, 202, 35, 0.209));
 }
 
 .row {
@@ -72,5 +73,5 @@ h1 {
   margin: 2vh auto;
   padding: 3vw;
   border-radius: 5px;
-  background-color: rgba(29, 133, 64, 0.744);
+  background-color: color-mix(in srgb, #D02530 60%, rgb(219, 120, 120));
 }/*# sourceMappingURL=styles.css.map */

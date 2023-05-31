@@ -1,12 +1,12 @@
-$primary-color: rgba(29, 133, 64, 0.744);
-$secondary-color: rgba(198, 78, 14, 0.913);
+$primary-color: #2daa44;
+$secondary-color: #D02530;
 
 
 * {
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: color-mix(in srgb, $primary-color 3%, rgba(182, 202, 35, 0.209));
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $primary-color;
+    background-color: $secondary-color;
     padding: 1vh 15vw;
 }
 
@@ -57,6 +57,7 @@ h1 {
     display: grid;
     margin: 1vh auto;
     width: 100%;
+    background-color: color-mix(in srgb, $primary-color 10%, rgba(182, 202, 35, 0.209));
 }
 
 .row {
@@ -73,5 +74,5 @@ h1 {
     margin: 2vh auto;
     padding: 3vw;
     border-radius: 5px;
-    background-color: $primary-color;
+    background-color: color-mix(in srgb, $secondary-color 60%, rgb(219, 120, 120));
 }
