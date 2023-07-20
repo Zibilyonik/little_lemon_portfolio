@@ -18,7 +18,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(185, 21, 15, 0.6078431373);
-  padding: 1vh 15vw;
+  padding: 1vh 5vw;
+  border-radius: 15px;
 }
 
 nav a {
@@ -31,6 +32,12 @@ h1 {
   color: #2b5d3c;
   text-align: center;
   font-family: "Berkshire Swash", cursive;
+}
+
+header {
+  background-color: rgba(185, 21, 15, 0.6078431373);
+  padding: 1vh 0;
+  border-radius: 15px;
 }
 
 .banner {
@@ -79,4 +86,15 @@ h1 {
   color: rgb(255, 255, 255);
   border-radius: 5px;
   background-color: rgba(185, 21, 15, 0.6078431373);
+}
+
+footer {
+  width: 80%;
+}
+
+.footer-col {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
