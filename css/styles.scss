@@ -92,6 +92,10 @@ header {
 
 footer {
     width: $website-width;
+    font-size: small;
+    .row {
+        margin: 0 auto;
+    }
 }
 
 
@@ -101,3 +105,20 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        max-width: $website-width;
+    }
+    footer {
+        margin: 0 auto;
+    }
+    .footer-col {
+        
+        width: 100%;
+    }
+}
+    
