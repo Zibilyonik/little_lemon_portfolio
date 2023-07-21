@@ -89,6 +89,9 @@ header {
 }
 
 footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 1vh auto;
   width: 80%;
   font-size: small;
 }
@@ -99,8 +102,6 @@ footer .row {
 .footer-col {
   width: 50%;
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {

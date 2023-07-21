@@ -91,6 +91,9 @@ header {
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1vh auto;
     width: $website-width;
     font-size: small;
     .row {
@@ -102,8 +105,6 @@ footer {
 .footer-col {
     width: 50%;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
