@@ -99,12 +99,36 @@ footer {
     .row {
         margin: 0 auto;
     }
+    .footer-logo {
+        height: 50px;
+        display: flex;
+        margin: 5px 1vw;
+    }
 }
 
 
 .footer-col {
-    width: 50%;
+    width: 45%;
+    max-width: 60%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        width: auto;
+        li {
+            vertical-align: middle;
+            margin: 0 1vw;
+            padding-top: 5px;
+            a {
+                height: 100%;
+                color: inherit;
+            }
+        }
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
