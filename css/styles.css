@@ -18,6 +18,21 @@ main {
   background-size: cover;
 }
 
+#Meal2 {
+  background-image: url("../assets/delivery_img.jpg");
+  background-size: cover;
+}
+
+#Meal3 {
+  background-image: url("../assets/takeout_img.jpg");
+  background-size: cover;
+}
+
+#Meal4 {
+  background-image: url("../assets/catering_img.jpg");
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -144,5 +159,21 @@ footer .footer-logo {
   }
   .footer-col {
     width: 100%;
+  }
+  #Meal1 {
+    background-image: url("../assets/reserved_img_sm.jpg");
+    background-size: cover;
+  }
+  #Meal2 {
+    background-image: url("../assets/delivery_img_sm.jpg");
+    background-size: cover;
+  }
+  #Meal3 {
+    background-image: url("../assets/takeout_img_sm.jpg");
+    background-size: cover;
+  }
+  #Meal4 {
+    background-image: url("../assets/catering_img_sm.jpg");
+    background-size: cover;
   }
 }/*# sourceMappingURL=styles.css.map */
