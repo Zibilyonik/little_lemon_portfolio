@@ -13,6 +13,11 @@ main {
   width: 80%;
 }
 
+#Meal1 {
+  background-image: url("../assets/reserved_img.jpg");
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
