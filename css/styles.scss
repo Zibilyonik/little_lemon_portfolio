@@ -1,7 +1,7 @@
 $primary-color: #2b5d3c;
 $secondary-color: #b9150f9b;
 $website-width: 80%;
-
+$image-darken: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
 
 * {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -17,22 +17,22 @@ main {
 }
 
 #Meal1{
-    background-image: url("../assets/reserved_img.jpg");
+    background: $image-darken, url("../assets/reserved_img.jpg");
     background-size: cover;
 }
 
 #Meal2{
-    background-image: url("../assets/delivery_img.jpg");
+    background: $image-darken, url("../assets/delivery_img.jpg");
     background-size: cover;
 }
 
 #Meal3{
-    background-image: url("../assets/takeout_img.jpg");
+    background: $image-darken, url("../assets/takeout_img.jpg");
     background-size: cover;
 }
 
 #Meal4{
-    background-image: url("../assets/catering_img.jpg");
+    background: $image-darken, url("../assets/catering_img.jpg");
     background-size: cover;
 }
 
@@ -167,22 +167,22 @@ footer {
     }
 
     #Meal1{
-        background-image: url("../assets/reserved_img_sm.jpg");
+        background: $image-darken, url("../assets/reserved_img_sm.jpg");
         background-size: cover;
     }
     
     #Meal2{
-        background-image: url("../assets/delivery_img_sm.jpg");
+        background: $image-darken, url("../assets/delivery_img_sm.jpg");
         background-size: cover;
     }
     
     #Meal3{
-        background-image: url("../assets/takeout_img_sm.jpg");
+        background: $image-darken, url("../assets/takeout_img_sm.jpg");
         background-size: cover;
     }
     
     #Meal4{
-        background-image: url("../assets/catering_img_sm.jpg");
+        background: $image-darken, url("../assets/catering_img_sm.jpg");
         background-size: cover;
     }
 }

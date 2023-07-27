@@ -14,22 +14,22 @@ main {
 }
 
 #Meal1 {
-  background-image: url("../assets/reserved_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/reserved_img.jpg");
   background-size: cover;
 }
 
 #Meal2 {
-  background-image: url("../assets/delivery_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/delivery_img.jpg");
   background-size: cover;
 }
 
 #Meal3 {
-  background-image: url("../assets/takeout_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/takeout_img.jpg");
   background-size: cover;
 }
 
 #Meal4 {
-  background-image: url("../assets/catering_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/catering_img.jpg");
   background-size: cover;
 }
 
@@ -161,19 +161,19 @@ footer .footer-logo {
     width: 100%;
   }
   #Meal1 {
-    background-image: url("../assets/reserved_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/reserved_img_sm.jpg");
     background-size: cover;
   }
   #Meal2 {
-    background-image: url("../assets/delivery_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/delivery_img_sm.jpg");
     background-size: cover;
   }
   #Meal3 {
-    background-image: url("../assets/takeout_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/takeout_img_sm.jpg");
     background-size: cover;
   }
   #Meal4 {
-    background-image: url("../assets/catering_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/catering_img_sm.jpg");
     background-size: cover;
   }
 }/*# sourceMappingURL=styles.css.map */
