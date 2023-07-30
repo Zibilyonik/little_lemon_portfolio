@@ -17,38 +17,51 @@ main {
 }
 
 #Meal1{
-    background: $image-darken, url("../assets/reserved_img.jpg");
+    background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/reserved_img.jpg?raw=true");
     background-size: cover;
 }
 
 #Meal2{
-    background: $image-darken, url("../assets/delivery_img.jpg");
+    background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/delivery_img.jpg?raw=true");
     background-size: cover;
 }
 
 #Meal3{
-    background: $image-darken, url("../assets/takeout_img.jpg");
+    background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/takeout_img.jpg?raw=true");
     background-size: cover;
 }
 
 #Meal4{
-    background: $image-darken, url("../assets/catering_img.jpg");
+    background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/catering_img.jpg?raw=true");
     background-size: cover;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: $secondary-color;
-    padding: 1vh 5vw;
     border-radius: 15px;
+    height: 100%;
 }
 
 nav a {
     color: rgb(255, 255, 255);
+    padding-top: 2px;
     text-decoration: none;
     font-size: 1.5rem;
+    height: 100%;
+}
+
+.nav-link-container {
+    height: 100%;
+    padding: 0 5vw;
+    max-width: 25%;
+    text-align: center;
+    display: flex;
+    transition: background-color .2s ease-in-out;
+    &:hover {
+        background-color: color-mix(in srgb, $secondary-color 30%, white 70%);
+    }
 }
 
 h1 {
@@ -60,8 +73,8 @@ h1 {
 
 header {
     background-color: $secondary-color;
-    padding: 1vh 0;
     border-radius: 15px;
+    height: 4vh;
 }
 
 .banner {
@@ -108,6 +121,12 @@ header {
     color: rgb(255, 255, 255);
     border-radius: 5px;
     background-color: $secondary-color;
+    transition: width .3s ease-in-out, height .3s ease-in-out;
+}
+
+.col:hover {
+    width: 20%;
+    height: 30vh;
 }
 
 footer {
@@ -158,6 +177,10 @@ footer {
     .col {
         max-width: $website-width;
     }
+    .col:hover {
+        width: 110%;
+        height: 30vh;
+    }
     footer {
         margin: 0 auto;
     }
@@ -166,23 +189,28 @@ footer {
         width: 100%;
     }
 
+    .nav-link-container {
+        height: 100%;
+        padding: 0 2vw;
+    }
+
     #Meal1{
-        background: $image-darken, url("../assets/reserved_img_sm.jpg");
+        background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/reserved_img_sm.jpg?raw=true");
         background-size: cover;
     }
     
     #Meal2{
-        background: $image-darken, url("../assets/delivery_img_sm.jpg");
+        background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/delivery_img_sm.jpg?raw=true");
         background-size: cover;
     }
     
     #Meal3{
-        background: $image-darken, url("../assets/takeout_img_sm.jpg");
+        background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/takeout_img_sm.jpg?raw=true");
         background-size: cover;
     }
     
     #Meal4{
-        background: $image-darken, url("../assets/catering_img_sm.jpg");
+        background: $image-darken, url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/catering_img_sm.jpg?raw=true");
         background-size: cover;
     }
 }

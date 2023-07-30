@@ -14,38 +14,51 @@ main {
 }
 
 #Meal1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/reserved_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/reserved_img.jpg?raw=true");
   background-size: cover;
 }
 
 #Meal2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/delivery_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/delivery_img.jpg?raw=true");
   background-size: cover;
 }
 
 #Meal3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/takeout_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/takeout_img.jpg?raw=true");
   background-size: cover;
 }
 
 #Meal4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/catering_img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/catering_img.jpg?raw=true");
   background-size: cover;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: rgba(185, 21, 15, 0.6078431373);
-  padding: 1vh 5vw;
   border-radius: 15px;
+  height: 100%;
 }
 
 nav a {
   color: rgb(255, 255, 255);
+  padding-top: 2px;
   text-decoration: none;
   font-size: 1.5rem;
+  height: 100%;
+}
+
+.nav-link-container {
+  height: 100%;
+  padding: 0 5vw;
+  max-width: 25%;
+  text-align: center;
+  display: flex;
+  transition: background-color 0.2s ease-in-out;
+}
+.nav-link-container:hover {
+  background-color: color-mix(in srgb, rgba(185, 21, 15, 0.6078431373) 30%, white 70%);
 }
 
 h1 {
@@ -56,8 +69,8 @@ h1 {
 
 header {
   background-color: rgba(185, 21, 15, 0.6078431373);
-  padding: 1vh 0;
   border-radius: 15px;
+  height: 4vh;
 }
 
 .banner {
@@ -106,6 +119,12 @@ header {
   color: rgb(255, 255, 255);
   border-radius: 5px;
   background-color: rgba(185, 21, 15, 0.6078431373);
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.col:hover {
+  width: 20%;
+  height: 30vh;
 }
 
 footer {
@@ -154,26 +173,34 @@ footer .footer-logo {
   .col {
     max-width: 80%;
   }
+  .col:hover {
+    width: 110%;
+    height: 30vh;
+  }
   footer {
     margin: 0 auto;
   }
   .footer-col {
     width: 100%;
   }
+  .nav-link-container {
+    height: 100%;
+    padding: 0 2vw;
+  }
   #Meal1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/reserved_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/reserved_img_sm.jpg?raw=true");
     background-size: cover;
   }
   #Meal2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/delivery_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/delivery_img_sm.jpg?raw=true");
     background-size: cover;
   }
   #Meal3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/takeout_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/takeout_img_sm.jpg?raw=true");
     background-size: cover;
   }
   #Meal4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/catering_img_sm.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://github.com/Zibilyonik/little_lemon_portfolio/blob/main/assets/catering_img_sm.jpg?raw=true");
     background-size: cover;
   }
 }/*# sourceMappingURL=styles.css.map */
